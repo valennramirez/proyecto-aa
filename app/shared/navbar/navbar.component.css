@@ -1,0 +1,17 @@
+.navbar 
+{
+    display: flex;
+    justify-content: end;
+    background-color: rgb(24, 24, 113);
+    height: 70px;
+    margin-bottom: 20px;
+}
+
+a{
+    margin: 25px; 
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

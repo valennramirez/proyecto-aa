@@ -1,0 +1,55 @@
+table {
+    border-collapse: collapse;
+    width: 95%;
+    display: flexbox;
+    margin: 0 auto;
+}
+ 
+table,
+th,
+td {
+    border: 1px solid black;
+}
+ 
+th,
+td {
+    padding: 15px; 
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+tr:nth-child(even) 
+{
+    background-color: #dcddeab3;
+}
+
+
+tbody input
+{
+    appearance: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+#boton-eliminar
+{
+    background-color: rgba(255, 0, 0, 0.495);
+    width: 5%;
+
+}
+
+tbody a
+{
+    text-decoration: none;
+    color: black;
+    
+}
+
+#boton-editar 
+{
+    background-color: rgba(0, 0, 255, 0.51);
+    width: 7%;
+}

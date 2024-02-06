@@ -1,0 +1,31 @@
+.fieldset {
+    display: flexbox;
+    margin: 0 auto;
+    width: 80%;
+    border-style: none;
+}
+
+.contenedor{
+    display: flex;
+   justify-content: center;
+}
+
+#buscador {
+    width: 40%;
+    height: 25px;
+    margin: 10px; 
+   
+}
+
+#boton-buscador
+{
+    height: 30px;
+    width: 10%;
+    margin: 10px; 
+    background-color: rgba(94, 107, 189, 0.663);
+    color: white;
+    border-color: white;
+    border-style: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+

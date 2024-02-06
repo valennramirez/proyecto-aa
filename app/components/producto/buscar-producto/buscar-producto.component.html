@@ -1,0 +1,20 @@
+<table class="tabla-productos">
+    <thead class="datos-tabla">
+        <tr>
+            <th>Nombre</th>
+            <th>Marca</th>
+            <th>Categoria</th>
+            <th>Precio</th>
+        </tr>
+    </thead>
+    <tbody class="informacion-tabla">
+        <tr *ngFor="let p of productos">
+            <td>{{p.nombre}}</td>
+            <td>{{p.marca}}</td>
+            <td>{{p.categoria}}</td>
+            <td>{{p.precioPublico}}</td>
+            <td id="boton-editar"><a [routerLink]="['/actualizar-producto', p.id]">Editar</a></td>
+            <td id="boton-eliminar" > <input type="submit" (click)="eliminarProducto(p.id)" value='Eliminar'> </td>
+        </tr>
+    </tbody>
+</table>

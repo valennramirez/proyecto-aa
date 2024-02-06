@@ -1,0 +1,10 @@
+<fieldset class="fieldset">
+    <form action=""  [formGroup]="buscadorform">
+        <div class="contenedor"> 
+            
+         <input id="buscador" type="text" formControlName="producto" placeholder="Ingrese un articulo...">
+         <button id="boton-buscador"  [routerLink]="['/buscar', this.buscadorform.get('producto')!.value]">Buscar</button>
+        </div>
+     </form>
+</fieldset>
+

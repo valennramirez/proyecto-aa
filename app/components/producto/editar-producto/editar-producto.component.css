@@ -1,0 +1,40 @@
+.field-editar-producto
+{
+    display: flexbox;
+    width: 70%;
+    margin: 0 auto;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.field-editar-producto legend 
+{
+    text-align: center;
+    font-weight: 600;
+    font-size: large;
+}
+
+.formulario div 
+{
+    margin: 30px;
+    align-items: center; 
+    
+}
+
+.formulario input
+{
+    margin-left: 20px; 
+    width: 30%;
+
+}
+
+.boton-editar
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.boton-editar input 
+{
+    width: 25%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}

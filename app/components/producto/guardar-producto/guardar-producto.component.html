@@ -1,0 +1,38 @@
+<fieldset class="field-editar-producto">
+    <legend>Ingresar nuevo producto</legend>
+    <form class="formulario" [formGroup]="formulario" >
+
+        <div class="ingreso-datos">
+            <label for="nombre">Nombre: </label>
+            <input type="text" id="nombre" formControlName="nombre" required>
+        </div>
+
+        <div class="ingreso-datos">
+            <label for="marca">Marca: </label>
+            <input type="text" id="marca" formControlName="marca" required>
+        </div>
+
+        <div class="ingreso-datos">
+            <label for="categoria">Categoria: </label>
+            <select name="" id="" formControlName="categoria">
+                <option value="Bebidas">Bebidas</option>
+                <option value="Alimentos">Alimentos</option>
+                <option value="Lacteos">Lacteos</option>
+                <option value="Panaderia">Panaderia</option>
+                <option value="Limpieza">Limpieza</option>
+                <option value="Fiambre">Fiambre</option>
+            </select>
+        </div>
+
+        <div class="ingreso-datos">
+            <label for="precioCosto">Precio de Costo: </label>
+            <input type="text" id="precioCosto" formControlName="precioCosto" required>
+        </div>
+       
+        <input type="hidden" formControlName="id">
+
+        <div class="boton-guardar">
+            <input  type="submit" (click)="guardarProducto()" value="Guardar Producto">
+        </div>
+    </form>
+</fieldset>
